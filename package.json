@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@types/zen-observable": "^0.8.3",
     "aws-amplify": "^4.3.18",
     "aws-amplify-vue": "^2.1.5",
     "core-js": "^3.8.3",
