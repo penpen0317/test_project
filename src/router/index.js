@@ -9,13 +9,10 @@ import { AmplifyEventBus, AmplifyPlugin, components } from 'aws-amplify-vue'
 
 import * as AmplifyModules from 'aws-amplify'
 
-
 Vue.use(AmplifyPlugin, AmplifyModules)
-// ---------------↑↑追記部①ここまで↑↑---------------
 
 Vue.use(VueRouter)
 
-// ---------------↓↓追記部②ここから↓↓---------------
 let user: any;
 
 function getUser() {
